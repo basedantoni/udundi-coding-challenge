@@ -1,0 +1,16 @@
+body {
+  background-image: url("../images/johannes-plenio-RwHv7LgeC7s-unsplash.png");
+}
+body .container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+body .container .rectangle {
+  height: 100%;
+  width: 100%;
+  background-color: #611818;
+}
+
+/*# sourceMappingURL=styles.css.map */
