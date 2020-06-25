@@ -5,12 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel = "stylesheet" type = "text/css" href = "./css/styles.css" />
-  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Udundi Coding Challenge</title>
 </head>
 <body>
   <div class="container">
-    <div class="col-4 rectangle">%nspb</div>
-    <div class="col-8"></div>
+    <div class="row">
+      <div class="col-4 block-1">
+        <h1 data-aos="fade-right" data-aos-duration="3000" class="display-1">Explore</h1>
+        <button class="details-btn"><img src="./images/Plus.png" alt="plus"></button>
+        <p>More Details</p>
+      </div>
+      <div class="col-8 block-2">
+        <a class="insta" target="_blank" href="https://www.instagram.com/"><img src="./images/Instagram.png" alt=""></a>
+        <a class="fb" target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png" alt=""></a>
+      </div>
+    </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
