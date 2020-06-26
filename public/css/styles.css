@@ -23,17 +23,23 @@ body .container .row .block-1 {
   width: 100%;
   background-color: #611818;
 }
-body .container .row .block-1 h1, body .container .row .block-1 p {
+body .container .row .block-1 h1 {
+  font-weight: bold;
+}
+body .container .row .block-1 h1, body .container .row .block-1 #detail {
+  font-family: essonnes-bold, serif;
+  display: block;
   position: absolute;
   font-size: 224px;
   color: white;
-  bottom: 30vh;
+  bottom: 20vh;
   left: 17vw;
 }
-body .container .row .block-1 p {
+body .container .row .block-1 #detail {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   left: 24vw;
-  bottom: 26vh;
+  bottom: 17vh;
   letter-spacing: 1px;
 }
 body .container .row .block-1 button {
@@ -41,8 +47,61 @@ body .container .row .block-1 button {
   border: 0;
   padding: 0;
   background-color: #611818;
-  bottom: 27vh;
+  bottom: 18vh;
   left: 20vw;
+}
+body .container .row .block-1 .card {
+  display: none;
+  transition: visibility 0s, opacity 0.5s linear;
+  position: absolute;
+  top: 14vh;
+  left: 18vw;
+  height: 70vh;
+  width: 35vw;
+  border-radius: 0;
+  box-shadow: -1px -1px 10px 1px #121212;
+}
+body .container .row .block-1 .card .card-body {
+  position: relative;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+body .container .row .block-1 .card .card-body .card-title {
+  font-size: 66px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: essonnes-bold, serif;
+  color: #611818;
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 2vh;
+}
+body .container .row .block-1 .card .card-body #line {
+  height: 2px;
+  width: 70%;
+  background-image: linear-gradient(to right, #611818, white);
+}
+body .container .row .block-1 .card .card-body .card-text {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  padding-right: 10%;
+  font-size: 13px;
+  line-height: 190%;
+}
+body .container .row .block-1 .card .card-body .card-link {
+  text-decoration: none;
+  background-image: linear-gradient(to right, #611818, #A36754);
+  color: white;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #979797;
+}
+body .container .row .block-1 .card .card-body #close {
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  top: 10px;
+  left: 430px;
 }
 body .container .row .block-2 {
   position: relative;
