@@ -57,7 +57,7 @@ body {
         }
 
         .card {
-          display: none;
+          display: block;
           transition: visibility 0s, opacity 0.5s linear;
           position: absolute;
           top: 14vh;
